@@ -1,0 +1,21 @@
+{
+  "firstName": "Gusti Agung Raka",
+  "lastName": "Darma Putra Kepakisan",
+  "gender": "male",
+  "age": 19,
+  "address": {
+    "streetAddress": "Buah Batu",
+    "city": "Bandung",
+    "state": "West Java"
+  },
+  "courses": [
+    {
+      "code": "CCK2KAB4",
+      "name": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "code": "CCK2IAB3",
+      "name": "Dasar Jaringan Komputer"
+    }
+  ]
+}
