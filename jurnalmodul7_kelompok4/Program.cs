@@ -1,4 +1,3 @@
-
 ﻿using System;
 using System.IO;
 using jurnalmodul7_kelompok4; // Import namespace yang isinya class DataMahasiswa dan KuliahMahasiswa
@@ -46,6 +45,10 @@ class program
             Console.WriteLine();
             var pathGlossary_Edsel = Path.Combine(basePath, "Jurnal7_3_103022300016.json"); // Menggabungkan path base dengan nama file json untuk menuju path json
             GlossaryItem_103022300016.ReadJSON(pathGlossary_Edsel); // Memanggil method readJson untuk membaca file json
+      DataMahasiswa103022330036_TioFunny.ReadJSON();
+      Console.WriteLine(" ");
+      TeamMembers103022330036_TioFunny.ReadJSON();
+      GlossaryItem103022330036_TioFunny.ReadJSON();
         }
     }
 }
