@@ -1,0 +1,46 @@
+{
+  "members": [
+    {
+      "firstName": "Edsel",
+      "lastName": "Septa Haryanto",
+      "gender": "male",
+      "age": 20,
+      "nim": "103022300016"
+    },
+    {
+      "firstName": "Gusti",
+      "lastName": "Agung Raka Darma Putra Kepakisan",
+      "gender": "male",
+      "age": 19,
+      "nim": "103022300088"
+    },
+    {
+      "firstName": "Tio",
+      "lastName": "Funny Tinambunan",
+      "gender": "female",
+      "age": 20,
+      "nim": "103022330036"
+    },
+    {
+      "firstName": "Reza",
+      "lastName": "Indra Maulana",
+      "gender": "male",
+      "age": 19,
+      "nim": "103022300109"
+    },
+    {
+      "firstName": "Deru",
+      "lastName": "Khairan Djuharianto",
+      "gender": "male",
+      "age": 20,
+      "nim": "103022300101"
+    },
+    {
+      "firstName": "Abdul",
+      "lastName": "Azis Saepurohmat",
+      "gender": "male",
+      "age": 20,
+      "nim": "103022300092"
+    }
+  ]
+}
