@@ -12,5 +12,9 @@ class program
         Console.WriteLine(" "); // Biar ada jarak/pemisah di output console
 
         TeamMembers_103022300101.ReadJson();
+
+        Console.WriteLine("");
+
+        GlossaryItem_103022300101.ReadJSON();
     }
 }
