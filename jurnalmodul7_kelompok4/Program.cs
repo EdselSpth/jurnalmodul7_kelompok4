@@ -1,4 +1,5 @@
 ﻿using System.Net.WebSockets;
+using System.Reflection.Metadata;
 using System.Text.Json;
 
 public class Address
@@ -46,11 +47,52 @@ public class DataMahasiswa_103022300092_AbdulAzizSaepurohmat
         }
     }
 }
+public class Member
+{ 
+    public string firstName { get; set; }
+    public string lastName { get; set; }
+    public string gender { get; set; }
+    public int age { get; set; }
+    public string nim { get; set; }
+}
+public class MemberList
+{ 
+    public List<Member> anggota { get; set; }
+}
 
+public class TeamMembers_103022300092_Abdul
+{
+    public static void ReadJSON(string filePath)
+    {
+        try {
+
+
+            string jsonString = File.ReadAllText(filePath);
+            MemberList members = JsonSerializer.Deserialize<MemberList>(jsonString);
+            if (members != null && members.anggota != null)
+            {
+                Console.WriteLine("Daftar Kelompok: ");
+                foreach (var member in members.anggota)
+                {
+                    Console.WriteLine($"{member.firstName}{member.firstName},{member.gender},{member.age},{member.nim}");
+                    }
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Erro: " + e.Message);
+        }
+        
+    }
+
+    
+}
 class Program
 {
     static void Main(string[] args)
     {
         DataMahasiswa_103022300092_AbdulAzizSaepurohmat.ReadJsonAsync(@"C:\Users\ABD AZIZ\Source\Repos\jurnalmodul7_kelompok4\jurnalmodul7_kelompok4\jurnal7_1_103022300092.json");
+        Console.WriteLine("");
+        TeamMembers_103022300092_Abdul.ReadJSON(@"C:\Users\ABD AZIZ\Source\Repos\jurnalmodul7_kelompok4\jurnalmodul7_kelompok4\jurnal7_2_103022300092.json");
     }
 }
