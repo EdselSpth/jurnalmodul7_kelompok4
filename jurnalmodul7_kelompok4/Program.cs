@@ -1,3 +1,4 @@
+﻿using jurnalmodul7_kelompok4;
 ﻿using System;
 
 class program
@@ -13,5 +14,10 @@ class program
         TeamMembers103022300088.ReadJson(pathmem);
         Console.WriteLine(" ");
         GlossaryReader103022300088.ReadJSON(pathgloss);
+        DataMahasiswa_103022300109.ReadJSON();
+        Console.WriteLine(" ");
+        TeamMembers_103022300109.ReadJSON();
+        Console.WriteLine(" ");
+        GlossaryItem_103022300109.ReadJSON();
     }
 }

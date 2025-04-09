@@ -1,0 +1,39 @@
+{
+  "members": [
+    {
+      "firstName": "Edsel",
+      "lastName": "Saputra",
+      "gender": "male",
+      "age": 20,
+      "nim": "103022300016"
+    },
+    {
+      "firstName": "Tio",
+      "lastName": "Funny",
+      "gender": "female",
+      "age": 20,
+      "nim": "103022330036"
+    },
+    {
+      "firstName": "Deru",
+      "lastName": "Khairan",
+      "gender": "male",
+      "age": 20,
+      "nim": "103022300101"
+    },
+    {
+      "firstName": "Reza",
+      "lastName": "Maulana",
+      "gender": "male",
+      "age": 19,
+      "nim": "103022300109"
+    },
+    {
+      "firstName": "Abdul",
+      "lastName": "Saepurohmat",
+      "gender": "male",
+      "age": 25,
+      "nim": "10302230010096"
+    }
+  ]
+}
