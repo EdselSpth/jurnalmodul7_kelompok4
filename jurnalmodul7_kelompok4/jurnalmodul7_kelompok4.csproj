@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+
+  </ItemGroup>
     <None Remove="Jurnal7_1_103022300016.json" />
     <None Remove="jurnal7_2_103022300016.json" />
   </ItemGroup>
@@ -25,6 +27,20 @@
     <Compile Update="TeamMembers_103022300016.cs">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Compile>
+=======
+    <None Remove="jurnal7_1_103022300088.json" />
+    <None Remove="jurnal7_2_103022300088.json" />
+    <None Remove="jurnal7_3_103022300088.json" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="jurnal7_1_103022300088.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="jurnal7_2_103022300088.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="jurnal7_3_103022300088.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
 </Project>

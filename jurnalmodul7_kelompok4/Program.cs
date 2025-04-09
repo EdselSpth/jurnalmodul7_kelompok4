@@ -1,16 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace jurnalmodul7_kelompok4
+﻿using jurnalmodul7_kelompok4;
+﻿using System;
+
+class program
 {
-    class Program
+    static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            // Code Bagian Miliki Edsel Septa Haryanto - 103022300016
+        var basepath = AppContext.BaseDirectory;
+        var pathData = Path.Combine(basepath, "jurnal7_1_103022300088.json");
+        var pathmem = Path.Combine(basepath, "jurnal7_2_103022300088.json");
+        var pathgloss = Path.Combine(basepath, "jurnal7_3_103022300088.json");
+        DataMahasiswa103022300088.ReadJSON(pathData);
+        Console.WriteLine(" ");
+        TeamMembers103022300088.ReadJson(pathmem);
+        Console.WriteLine(" ");
+        GlossaryReader103022300088.ReadJSON(pathgloss);
+        DataMahasiswa_103022300109.ReadJSON();
+        Console.WriteLine(" ");
+        TeamMembers_103022300109.ReadJSON();
+        Console.WriteLine(" ");
+        GlossaryItem_103022300109.ReadJSON();
+       // Code Bagian Miliki Edsel Septa Haryanto - 103022300016
             var basePath = AppContext.BaseDirectory; // Mencari path base program dijalankan
             var pathDataMahasiswa_Edsel = Path.Combine(basePath, "Jurnal7_1_103022300016.json"); // Menggabungkan path base dengan nama file json untuk menuju path json
             DataMahasiswa_103022300016.ReadJson(pathDataMahasiswa_Edsel); // Memanggil method ReadJson untuk membaca file json
@@ -25,3 +35,4 @@ namespace jurnalmodul7_kelompok4
         }
     }
 }
+
