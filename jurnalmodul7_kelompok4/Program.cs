@@ -8,5 +8,6 @@ public class main
         DataMahasiswa103022330036_TioFunny.ReadJSON();
         Console.WriteLine(" ");
         TeamMembers103022330036_TioFunny.ReadJSON();
+        GlossaryItem103022330036_TioFunny.ReadJSON();
     }
 }
