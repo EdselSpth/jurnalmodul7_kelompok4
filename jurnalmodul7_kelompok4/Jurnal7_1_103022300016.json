@@ -1,0 +1,41 @@
+{
+  "firstName": "Edsel",
+  "lastName": "Septa Haryanto",
+  "gender": "male",
+  "age": 25,
+  "address": {
+    "streetAddress": "Bumi Prima Raya No 8",
+    "city": "Cimahi",
+    "state": "Jawa Barat"
+  },
+  "courses": [
+    {
+      "code": "CRI2C4",
+      "name": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "code": "CCK2FAB4",
+      "name": "Arsitektur dan Desain Perangkat Lunak"
+    },
+    {
+      "code": "CCK2HAB4",
+      "name": "Basis Data"
+    },
+    {
+      "code": "CCK2LAB3",
+      "name": "Kecerdasan Buatan"
+    },
+    {
+      "code": "CCK2JAC2",
+      "name": "Proyek Tingkat II"
+    },
+    {
+      "code": "CCK2IAB3",
+      "name": "Dasar Jaringan Komputer"
+    },
+    {
+      "code": "CCK4AAB2",
+      "name": "Teknologi Perangkat Lunak untuk Masyarakat"
+    }
+  ]
+}
