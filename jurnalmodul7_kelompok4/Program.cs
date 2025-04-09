@@ -1,4 +1,5 @@
 
+
 ﻿using System.Net.WebSockets;
 using System.Reflection.Metadata;
 using System.Text.Json;
@@ -132,8 +133,10 @@ class program
             Console.WriteLine();
             var pathGlossary_Edsel = Path.Combine(basePath, "Jurnal7_3_103022300016.json"); // Menggabungkan path base dengan nama file json untuk menuju path json
             GlossaryItem_103022300016.ReadJSON(pathGlossary_Edsel); // Memanggil method readJson untuk membaca file json
+      DataMahasiswa103022330036_TioFunny.ReadJSON();
+      Console.WriteLine(" ");
+      TeamMembers103022330036_TioFunny.ReadJSON();
+      GlossaryItem103022330036_TioFunny.ReadJSON();
         }
     }
 }
-
-
