@@ -6,5 +6,7 @@ public class main
     public static void Main(string[] args)
     {
         DataMahasiswa103022330036_TioFunny.ReadJSON();
+        Console.WriteLine(" ");
+        TeamMembers103022330036_TioFunny.ReadJSON();
     }
 }
