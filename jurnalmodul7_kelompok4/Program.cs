@@ -7,5 +7,7 @@ public class main
         DataMahasiswa_103022300109.ReadJSON();
         Console.WriteLine(" ");
         TeamMembers_103022300109.ReadJSON();
+        Console.WriteLine(" ");
+        GlossaryItem_103022300109.ReadJSON();
     }
 }
