@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace jurnalmodul7_kelompok4
 {
-    class DataMahasiswa_103022300109
+    class DataMahasiswa_103022300101
     {
         //Class buat struktur data di JSON
         public class Mahasiswa()

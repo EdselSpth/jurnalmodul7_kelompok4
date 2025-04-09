@@ -7,7 +7,7 @@ class program
     static void Main(string[] args)
     {
         // Panggil method ReadJSON dari class DataMahasiswa buat baca file JSON mahasiswa
-        DataMahasiswa_103022300109.ReadJSON();
+        DataMahasiswa_103022300101.ReadJSON();
 
         Console.WriteLine(" "); // Biar ada jarak/pemisah di output console
 
