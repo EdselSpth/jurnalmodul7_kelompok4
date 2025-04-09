@@ -18,6 +18,10 @@ namespace jurnalmodul7_kelompok4
             Console.WriteLine();
             var pathTeamMembers_Edsel = Path.Combine(basePath, "Jurnal7_2_103022300016.json"); // Menggabungkan path base dengan nama file json untuk menuju path json
             TeamMembers_103022300016.readJson(pathTeamMembers_Edsel); // Memanggil method readJson untuk membaca file json
+
+            Console.WriteLine();
+            var pathGlossary_Edsel = Path.Combine(basePath, "Jurnal7_3_103022300016.json"); // Menggabungkan path base dengan nama file json untuk menuju path json
+            GlossaryItem_103022300016.ReadJSON(pathGlossary_Edsel); // Memanggil method readJson untuk membaca file json
         }
     }
 }
