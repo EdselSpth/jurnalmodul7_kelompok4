@@ -9,11 +9,8 @@ namespace jurnalmodul7_kelompok4
 {
     class TeamMembers_103022300101
     {
-        public class Mahasiswa()
-        {
-            public List<member> member { get; set; }
-        }
-        public class member()
+        //Class buat struktur data di JSON
+        public class Member
         {
             public string firstName { get; set; }
             public string lastName { get; set; }
@@ -21,14 +18,23 @@ namespace jurnalmodul7_kelompok4
             public int age { get; set; }
             public string nim { get; set; }
         }
-        public static void readJSON()
+        //Class untuk menambahkan data Team yang ada di JSON
+        public class Team
         {
-            string json = File.ReadAllText("D:\\telkom\\Praktikum\\EdselSpth\\jurnalmodul7_kelompok4\\jurnalmodul7_kelompok4\\jurnal7_2_103022300101.json");
-            var mahasiswa = JsonSerializer.Deserialize<member>(json);
+            public List<Member> members { get; set; }
+        }
+        //Class untuk menampilkan data Team Member
+        public static void ReadJson()
+        {
+            string jsonString = File.ReadAllText("D:\\telkom\\Praktikum\\EdselSpth\\jurnalmodul7_kelompok4\\jurnalmodul7_kelompok4\\jurnal7_2_103022300101.json"); //untuk mengetahui File JSON yang mna yang akan diambi
+            Team team = JsonSerializer.Deserialize<Team>(jsonString);
+
             Console.WriteLine("Team member list:");
-            for (int i = 0; i < mahasiswa.member.Count; i++)
+            //Perulangan untuk menampilkan semua data Team Member
+            foreach (var member in team.members)
             {
-                Console.WriteLine(mahasiswa.courses.ElementAt(i).code + " " + mahasiswa.courses.ElementAt(i).name);
+                Console.WriteLine(member.nim + " " + member.firstName + " " + member.lastName +
+                    " (" + member.age + " " + member.gender + ")");
             }
         }
     }
